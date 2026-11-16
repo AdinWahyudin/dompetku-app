@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "DompetKu - Pencatatan Keuangan",
+    "slug": "finance-tracker-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "finance-tracker-app",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
